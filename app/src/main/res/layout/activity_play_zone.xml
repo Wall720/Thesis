@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r6icon"
+        tools:context="com.example.wall720.quiz6siege.PlayZone">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_score"
+            android:text="Text"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textAlignment="center"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/tv_questions"
+            android:text="Text"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textAlignment="center"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+
+            android:id="@+id/iv_maps"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_answer1"
+            android:text="Button"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_answer2"
+            android:text="Button"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_answer3"
+            android:text="Button"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_answer4"
+            android:text="Button"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

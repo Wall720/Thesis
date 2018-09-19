@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r6icon"
+    tools:context="com.example.wall720.quiz6siege.MenuQuiz">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Six Siege"
+        android:textSize="24pt"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/tv_score"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_play"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:text="Játék"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_exit"
+            android:text="Kilépés"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
